@@ -1,10 +1,10 @@
 public class OperadoresDeComparacaoEIgualdade {
 
 	public static void main(String[] args) {
-		// Comparação: > (maior), >= (maior ou igual), < (menor), <= (menor ou igual)
+		// Comparaï¿½ï¿½o: > (maior), >= (maior ou igual), < (menor), <= (menor ou igual)
 		// Igualdade: == (igual) e != (diferente)
 		
-		/*int a = 10;
+		int a = 10;
 		int b = 5;
 		int c = 2;
 		
@@ -21,8 +21,7 @@ public class OperadoresDeComparacaoEIgualdade {
 		System.out.println(menorOuIgual); // true
 		System.out.println(igual); // false
 		System.out.println(diferente); // true
-		*/
-		
+
 		boolean bloqueado = false;
 		
 		bloqueado = !bloqueado;

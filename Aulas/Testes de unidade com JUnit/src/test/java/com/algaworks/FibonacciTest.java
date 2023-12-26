@@ -43,5 +43,14 @@ public class FibonacciTest {
 		
 		assertEquals(0L, valor);
 	}
+
+	@Test
+	public void deve_retornar_fibonacci_posicao_3() {
+		long posicao = 3L;
+
+		long valor = fibonacci.calcular(posicao);
+
+		assertEquals(2L, valor);
+	}
 	
 }

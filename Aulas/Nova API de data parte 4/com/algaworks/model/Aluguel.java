@@ -67,7 +67,7 @@ public class Aluguel {
 		System.out.println(">>>>>>>>>>>> Fatura <<<<<<<<<<<<<<<");
 		if (!duration.isNegative()) {
 			double multa = duration.toHours() * carro.getValorDiaria() * 0.1;
-			System.out.printf("Valor da multa: R$ %.2f. Pois você atrasou %d dias.", multa, duration.toHours());
+			System.out.printf("Valor da multa: R$ %.2f. Pois você atrasou %d horas.", multa, duration.toHours());
 		} else {
 			System.out.println("Obrigado. Você foi pontual.");
 		}

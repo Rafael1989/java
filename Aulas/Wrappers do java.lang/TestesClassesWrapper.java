@@ -6,13 +6,13 @@ public class TestesClassesWrapper {
 		// Byte, Short, Integer, Long, Float, Double e Character
 		
 		int x = 5;
-		Integer i = new Integer(5);
+		Integer i = 5;
 		
 		byte y = i.byteValue();
 		// xxxValue();
 		
 		String valor = "15.5";
-		Float v = new Float(valor);
+		Float v = Float.parseFloat(valor);
 		System.out.println(v + 3);
 		
 		int idade = Integer.parseInt("27"); // parseXXX

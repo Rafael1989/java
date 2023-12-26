@@ -6,9 +6,9 @@ import java.util.List;
 public class TesteListArrayList {
 
 	public static void main(String[] args) {
-		Aluno a1 = new Aluno("João");
+		Aluno a1 = new Aluno("Joao");
 		Aluno a2 = new Aluno("Maria");
-		Aluno a3 = new Aluno("José");
+		Aluno a3 = new Aluno("Jose");
 		Aluno a4 = new Aluno("Pedro");
 		
 		List<Aluno> alunos = new ArrayList<Aluno>();

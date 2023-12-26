@@ -6,7 +6,7 @@ public class Pessoa {
 	protected int idade;
 	
 	public void seApresentar() {
-		System.out.println("Olá, eu sou o " + nome + ", e tenho " + idade + " anos.");
+		System.out.println("Ola, eu sou o " + nome + ", e tenho " + idade + " anos.");
 	}
 	
 }

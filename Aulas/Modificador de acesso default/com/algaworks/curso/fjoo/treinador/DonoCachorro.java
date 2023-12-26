@@ -1,4 +1,4 @@
-package com.algaworks.curso.fjoo.treinador;
+package com.algaworks.curso.fjoo.animal.com.algaworks.curso.fjoo.treinador;
 
 import com.algaworks.curso.fjoo.animal.Cachorro;
 

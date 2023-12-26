@@ -12,8 +12,8 @@ public class Aluguel {
 	private LocalDateTime dataEHoraRealDaDevolucao;
 
 	public Aluguel(Cliente cliente, Carro carro,
-			LocalDateTime dataEHoraDaRetirada,
-			LocalDateTime dataEHoraPrevistaParaDevolucao) {
+				   LocalDateTime dataEHoraDaRetirada,
+				   LocalDateTime dataEHoraPrevistaParaDevolucao) {
 		this.cliente = cliente;
 		this.carro = carro;
 		this.dataEHoraDaRetirada = dataEHoraDaRetirada;
@@ -61,3 +61,5 @@ public class Aluguel {
 			LocalDateTime dataEHoraRealDaDevolucao) {
 		this.dataEHoraRealDaDevolucao = dataEHoraRealDaDevolucao;
 	}
+
+}

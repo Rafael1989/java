@@ -6,7 +6,7 @@ public class TesteOperacaoEnum {
 		OperacaoAritmetica o1 = OperacaoAritmetica.ADICAO;
 		
 		int resultado1 = o1.operacao(5, 3);
-		System.out.println("O resulado é: " + resultado1);
+		System.out.println("O resulado Ã©: " + resultado1);
 		
 		for (OperacaoAritmetica oa : OperacaoAritmetica.values()) {
 			System.out.println(oa + " -> " + oa.operacao(4, 2));

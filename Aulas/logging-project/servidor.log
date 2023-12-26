@@ -1,0 +1,10 @@
+2023-12-26 19:42:19,526 INFO main com.algaworks.ExemploSalvandoCliente - Iniciando a aplicação
+2023-12-26 19:42:19,528 WARN main com.algaworks.dao.ClienteDAO - Cliente está nulo
+2023-12-26 19:42:19,528 INFO main com.algaworks.ExemploSalvandoCliente - Finalizando a aplicação.
+2023-12-26 19:43:10,247 INFO main com.algaworks.ExemploSalvandoCliente - Iniciando a aplicação
+2023-12-26 19:43:10,253 DEBUG main com.algaworks.dao.ClienteDAO - Salvando o cliente: Cliente [nome=João]
+2023-12-26 19:43:10,253 DEBUG main com.algaworks.dao.ClienteDAO - Cliente salvo com sucesso.
+2023-12-26 19:43:10,253 WARN main com.algaworks.dao.ClienteDAO - Cliente está nulo
+2023-12-26 19:43:10,253 INFO main com.algaworks.ExemploSalvandoCliente - Finalizando a aplicação.
+2023-12-26 19:43:35,141 INFO main com.algaworks.ExemploSalvandoCliente - Iniciando a aplicação
+2023-12-26 19:43:35,142 INFO main com.algaworks.ExemploSalvandoCliente - Finalizando a aplicação.

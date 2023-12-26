@@ -41,7 +41,7 @@ public class Principal {
 			53200d, "13/05/2012");
 		
 		// exibe listagem de todas as contas com detalhamento
-		RelatorioContas relatorio = new RelatorioContas();
+		com.algaworks.cursojava.financeiro.RelatorioContas relatorio = new com.algaworks.cursojava.financeiro.RelatorioContas();
 		Conta[] contas = new Conta[]{contaPagar1, contaPagar2, contaReceber1, contaReceber2};
 		
 		relatorio.exibirListagem(contas);

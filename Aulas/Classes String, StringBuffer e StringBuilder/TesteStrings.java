@@ -5,12 +5,12 @@ public class TesteStrings {
 	public static void main(String[] args) {
 		// String, StringBuilder e StringBuffer
 		
-		String s = "Olá"; // Criada a String "Olá"
-		s = s + " Pessoal!";  // Criada a String "Olá Pessoal!"
+		String s = "Ola"; // Criada a String "Olï¿½"
+		s = s + " Pessoal!";  // Criada a String "Olï¿½ Pessoal!"
 				
 		System.out.println(s);
 		
-		StringBuilder sb = new StringBuilder("Olá"); // Existe a StringBuilder
+		StringBuilder sb = new StringBuilder("Ola"); // Existe a StringBuilder
 		sb.append(" Pessoal!"); // Reaproveitando a StringBuilder
 		
 		String resultado = sb.toString();

@@ -10,7 +10,7 @@ public class NotaFiscal implements Imprimivel, EnviavelPorEmail {
 	
 	@Override
 	public void imprimir() {
-		//Aqui vai nossa implementação
+		//Aqui vai nossa implementacao
 		System.out.println("Vamos imprimir essa nota fiscal de numero: " + numero);
 	}
 	
@@ -20,7 +20,7 @@ public class NotaFiscal implements Imprimivel, EnviavelPorEmail {
 
 	@Override
 	public void enviar(String email) {
-		System.out.println("Enviando a nota de número: " + numero + " para o email: " + email);
+		System.out.println("Enviando a nota de nÃºmero: " + numero + " para o email: " + email);
 		
 	}
 

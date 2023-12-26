@@ -14,7 +14,7 @@ public class JdbcDAOFactory extends DAOFactory {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			this.connection = DriverManager.getConnection("jdbc:mysql://localhost/cadastro_cliente"
-					, "root", "root");
+					, "root", "1234");
 		} catch (Exception e) {
 			throw new RuntimeException("Erro recuperando conexão com o banco", e);
 		}

@@ -6,7 +6,6 @@ import java.util.List;
 import com.algaworks.curso.modelo.Cliente;
 import com.algaworks.curso.modelo.Endereco;
 import com.algaworks.curso.modelo.Telefone;
-import com.google.gson.Gson;
 
 public class GerandoJson {
 

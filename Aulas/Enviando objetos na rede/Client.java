@@ -9,7 +9,7 @@ import java.net.Socket;
 public class Client {
 
 	public static void main(String[] args) throws Exception {
-		Socket socket = new Socket("192.168.0.119", 3333);
+		Socket socket = new Socket("192.168.0.93", 3333);
 		
 		OutputStream saida = socket.getOutputStream();
 		ObjectOutput objectOutput = new ObjectOutputStream(saida);
